@@ -21,7 +21,6 @@ public class GameBuilder {
             rawGame = sc.next();
         } catch (FileNotFoundException e) {
         }
-        System.out.println(rawGame.length());
     }
     
     public int[][] build() {
